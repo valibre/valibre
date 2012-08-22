@@ -1,4 +1,4 @@
-VaLibre
+Va Libre!
 ===
 
 Free personal secure cloud for everyone. Va Libre!
