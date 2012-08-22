@@ -3,15 +3,18 @@ Va Libre!
 
 Free personal secure cloud for everyone. Va Libre!
 
-Checking out for development
+Contributing
 ---
+Fork the repository. Then, run:
 
-	% git clone git@github.com:valibre/valibre.git
-	% cd valibre
+	git clone --recursive git@github.com:<username>/valibre.git
+	cd valibre
+	git branch master origin/master
+	git flow init -d
+	git flow feature start <your feature>
 
-	# Use git-flow defaults
-	% git flow init -d
+Then, do work and commit your changes.
 
-	% git checkout -t origin/develop
+	git flow feature publish <your feature>
 
-	
+When done, open a pull request to your feature branch.
